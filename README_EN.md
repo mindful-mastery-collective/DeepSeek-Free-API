@@ -24,8 +24,12 @@ Note: The current fork version has not found any malicious code, welcome to revi
 3. Added Gemini and Claude adapters, which can call API in gemini-cli and claude-code
 
 > PS: Model names are actually not very useful, just for convenience and aesthetics. In reality, the actual Chat call uses whatever model is configured online, model names can be filled arbitrarily.
+> PS: DeepSeek official website, App, and API have been updated to the official version DeepSeek-V3.2
 
 ### Version Information
+
+- v1.0.1-fix (2026-02-03)
+    - After the session is repaired, there may be an issue where the FINISHED mark is returned, affecting content output (PS: Filtered out).
 
 - v1.0.0-fix (2025-12-02)
     - Modified default homepage style, added integration methods and example code
